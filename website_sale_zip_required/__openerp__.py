@@ -20,7 +20,7 @@
 
 {
     'name': 'e-commerce required ZIP code',
-    'summary': 'ZIP code required in checkout form - Not work for admin user',
+    'summary': 'ZIP code required in checkout form',
     'version': '1.0',
     'category': 'Website',
     'author': "Laura Muñoz Isidro",
