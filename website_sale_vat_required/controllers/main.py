@@ -24,7 +24,6 @@ from openerp.addons.website_sale.controllers.main import website_sale
 class WebsiteSale(website_sale):
     def checkout_form_validate(self, data):
         res = super(WebsiteSale, self).checkout_form_validate(data)
-        if not (data.get('vat')) and (data.get('zip')):
+        if not (data.get('vat')):
             res['vat'] = 'missing'
-            res1['zip'] = 'missing'
-        return res, res1
+        return res
